@@ -25,7 +25,7 @@ def fill_matrix(st,a=None,b=None):
             if st[a+1][b+1] =='_':
                 st[a + 1][b + 1] = 'o'
                 print('Ход компьютера.......')
-                #Thinking()
+                Thinking()
                 break
     else:
         st[a+1][b+1] = 'x'
