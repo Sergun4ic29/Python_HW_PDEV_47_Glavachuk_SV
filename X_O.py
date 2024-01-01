@@ -38,6 +38,7 @@ def chek_winner(st,player):
             return True
         else:
             return False
+        #12
 
 def call_counter(func):
     def wrapper(*args):
